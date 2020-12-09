@@ -1,0 +1,3 @@
+C:\Users\dang\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\txtReader.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\txtReader.dir/objects.a @CMakeFiles\txtReader.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\txtReader.dir/objects.a -Wl,--no-whole-archive  -o txtReader.exe -Wl,--out-implib,libtxtReader.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\txtReader.dir\linklibs.rsp
